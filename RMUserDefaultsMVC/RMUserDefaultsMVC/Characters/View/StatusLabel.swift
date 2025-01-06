@@ -1,5 +1,5 @@
 //
-//  CustomUILabel.swift
+//  StatusLabel.swift
 //  RMUserDefaultsMVC
 //
 //  Created by Ибрагим Габибли on 29.12.2024.
