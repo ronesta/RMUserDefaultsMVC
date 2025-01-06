@@ -11,7 +11,6 @@ import SnapKit
 class CharacterViewController: UIViewController {
     lazy var characterView: CharacterView = {
         let view = CharacterView(frame: .zero)
-        view.characterViewController = self
         return view
     }()
 

@@ -14,13 +14,11 @@ class CharacterView: UIView {
         return tableView
     }()
 
-    weak var characterViewController: CharacterViewController?
-
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupViews()
     }
-    
+
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
