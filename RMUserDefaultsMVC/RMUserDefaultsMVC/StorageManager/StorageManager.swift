@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class StorageManager {
+final class StorageManager {
     private let charactersKey = "charactersKey"
     static let shared = StorageManager()
     private init() {}
